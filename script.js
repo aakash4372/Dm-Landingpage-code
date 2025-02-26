@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(function() {
         document.getElementById('floating-icons').classList.add('visible');
-    }, 5000);
+    }, 3000);
     
     AOS.init();
     
