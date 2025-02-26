@@ -64,12 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
     function redirectToWhatsApp() {
         setTimeout(() => {
             window.open("https://wa.me/9952787198", "_blank");
-        }, 800);
+        }, 300);
     }
 
     setTimeout(function() {
         document.getElementById('floating-icons').classList.add('visible');
-    }, 3000);
+    }, 5000);
     
     AOS.init();
+    
 });

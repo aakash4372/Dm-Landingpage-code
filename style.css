@@ -12,6 +12,7 @@ html {
     font-family: var(--font1);
     overflow-x: hidden;
     width: 100%;
+    scroll-behavior: smooth !important;
 }
 
 .top-banner {
@@ -1368,6 +1369,14 @@ p.text-muted {
     width: 30px;
     height: auto;
 }
+.Phone img {
+    width: 30px;
+    height: auto;
+}
+.email img {
+    width: 30px;
+    height: auto;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -1395,3 +1404,4 @@ p.text-muted {
 ::-webkit-scrollbar-vertical {
     width: 10px;
 }
+
