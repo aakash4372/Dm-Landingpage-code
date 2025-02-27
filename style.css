@@ -1069,6 +1069,13 @@ p.text-muted {
     color: #444;
     line-height: 1.6;
 }
+.key-highlights {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    flex-direction: column;  /* Ensures content stacks properly */
+    text-align: center;
+}
 
 
 .key-highlights h5 {
@@ -1404,4 +1411,3 @@ p.text-muted {
 ::-webkit-scrollbar-vertical {
     width: 10px;
 }
-
